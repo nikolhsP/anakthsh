@@ -94,7 +94,13 @@ def main():
     print("- AND: Επιστρέφει έγγραφα που περιέχουν όλους τους όρους (π.χ. 'machine AND learning').")
     print("- NOT: Εξαιρεί έγγραφα που περιέχουν τον όρο (π.χ. 'NOT neural').")
     
-    documents = [""]  # Λίστα για τα έγγραφα (π.χ. κάθε έγγραφο ως απλό κείμενο)
+    # Λίστα εγγράφων για δοκιμή
+    documents = [
+        "This is a document about machine learning.",
+        "This document is about neural networks and deep learning.",
+        "Another document about machine learning applications."
+    ]
+    
     while True:
         print("\nΕπιλέξτε τον αλγόριθμο κατάταξης:")
         print("1: Boolean Retrieval")
